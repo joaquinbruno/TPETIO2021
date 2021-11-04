@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJL Informatica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/tabla.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <figure>
+        <img class="logo" src="images/logo.png" alt="Logo">
+        </figure>
+    </header>
+    <section>
+        <button class="menumobile" id="menu">MENU</button>
+    </section>
+    <nav class="navegador">
+        <ul class="keypad" id="showmenu">
+            <a href="index.html">
+                <li class="botton">HOME</li>
+            </a>
+            <a href="productos.html">
+                <li class="botton">PRODUCTOS</li>
+            </a>
+            <a href="consultas.html">
+                <li class="botton">CONSULTAS</li>
+            </a>
+            <a href="admin.html">
+                <li class="botton">STOCK</li>
+            </a>
+        </ul>
+    </nav>
+    
+    
+    <table>
+        <thead>
+        <th>
+            TIPO
+        </th>
+        <th>
+            MARCA
+        </th>
+        <th>
+            MODELO
+        </th>
+        <th>
+            PRECIO
+        </th>   
+        </thead>
+        <tbody id="tablaingresos">
+           
+        </tbody>
+    </table>
+
+    <form action="">
+        <input id="marca" type="text" placeholder="Marca">
+        <input id="tipo" type="text" placeholder="Tipo">
+        <input id="precio" type="numeric" placeholder="Precio">
+        <input id="modelo" type="text" placeholder="Modelo">
+        <button id="btnAgregar">Agregar</button>
+        <button id="btnBorrar">Borrar Todo</button>
+        <button id="btnAgregarx3">Agregar ofertas</button>
+    </form>
+    <div class="editar" id="menu-edit">
+    <form action="" >
+        <h3>Para modificar la tabla completa los inputs y clickea en Editar la Fila que quieras modificar!</h2>
+        <input id="edit_marca" type="text" placeholder="Marca">
+        <input id="edit_tipo" type="text" placeholder="Tipo">
+        <input id="edit_precio" type="numeric" placeholder="Precio">
+        <input id="edit_modelo" type="text" placeholder="Modelo">
+       </form>  
+   </div>
+
+    <button id="btn-editar">Editar!</button>
+
+
+    <select name="" id="filtrado">
+        <option value="Procesador">Procesador</option>
+        <option value="Placa de Video">Placa de Video</option>
+        <option value="Monitor">Monitor</option>
+        <option value="Teclado">Teclado</option>
+        <option value="Motherboard">Motherboard</option>
+        <option value="Memoria Ram">Memoria Ram</option>
+
+
+</select>
+    <button id="btnfiltrado"> Filtrar!</button>
+</section>
+    <footer>
+        <p>MJL Informatica&copy;</p>
+        <p>Tandil, Buenos Aires</p>
+        <p>2020</p>
+    </footer>
+    
+</body>
+
+</html>
