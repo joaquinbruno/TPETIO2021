@@ -79,11 +79,13 @@ tr {
 .contenthtml1 {
   width: 50%;
   font-size: 11px;
+  font-style: italic;
 }
 /* Distincion de Marcas en la Tabla */
 .brands {
   text-align: center;
   background-color: aquamarine;
+  font-style: italic;
 }
 
 /* HTML2 */
@@ -256,5 +258,14 @@ a:hover {
         text-decoration: none;
         padding-left: 19px;
         font-weight: bold;
+}
+.productos{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+}
+.titulo{
+  text-align: center;
+  font-style: italic;
 }
 }
