@@ -66,15 +66,19 @@ footer {
 
 th {
   border: 3px solid black;
-  background: black;
+  background: blue;
   color: white;
 }
-
-table,
-td,
-tr {
-  border: 1px solid black;
+/*AGREEEGAR */
+table, td, tr {
+  border: 3px solid black;
   border-collapse: collapse;
+}
+
+/*AGREGAR*/ 
+button{
+  background-color: blue;
+  color: white;
 }
 .contenthtml1 {
   width: 50%;
@@ -205,11 +209,22 @@ a:hover {
 }
 /* Visión Pág Admin */
 
-.admintabla {
+
+
+.tablaStock{
+  display: flex;
+  justify-content: space-around;
+}
+.tituloStock{
   display: flex;
   justify-content: space-around;
 }
 
+.imagenStock{
+  display: flex;
+  justify-content: space-around;
+  padding:20px
+}
 @media only screen and (min-width: 769px) {
   /* Detalles de Visualicacion*/
 
