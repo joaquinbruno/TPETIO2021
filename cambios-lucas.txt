@@ -1,2 +1,3 @@
-Modifique la letra de la seccion consultas
-Cambie los bordes de los formularios, cambie la imagen de la parte de contacto y agregue el horario de atencion
+Modifique la letra de la seccion consultas.
+Cambie los bordes de los formularios, cambie la imagen de la parte de contacto y agregue el horario de atencion.
+Le agregue un titulo a la seccion consultas, cambie el color de las letras de las sucursales y agregue algunas mas.
