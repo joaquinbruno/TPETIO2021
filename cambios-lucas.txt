@@ -1,1 +1,2 @@
 Modifique la letra de la seccion consultas
+Cambie los bordes de los formularios, cambie la imagen de la parte de contacto y agregue el horario de atencion
